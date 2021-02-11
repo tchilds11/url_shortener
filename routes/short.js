@@ -1,5 +1,5 @@
 const express = require('express'), 
-    router = mexpress.Router(),
+    router = express.Router(),
     ShortModel = require('../models/short'),
     SearchModel = require('../models/search');
 
