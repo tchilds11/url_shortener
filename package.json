@@ -4,10 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "db:create": "createdb skatepark_reviews",
-    "db:destroy": "dropdb skatepark_reviews",
-    "db:init": "psql -f ./sql/schema.sql skatepark_reviews",
-    "db:seed": "psql -f ./sql/seed.sql skatepark_reviews",
+    "db:create": "createdb url_shortener",
+    "db:destroy": "dropdb url_shortener",
+    "db:init": "psql -f ./sql/schema.sql url_shortener",
+    "db:seed": "psql -f ./sql/seed.sql url_shortener",
     "start": "node app.js",
     "dev": "nodemon app.js"
   },

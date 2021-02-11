@@ -1,5 +1,5 @@
 const express = require('express'),
-    router = rexpress.Router(),
+    router = express.Router(),
     ShortModel = require('../models/short');
 
 router.get('/', async (req, res, next) => {
